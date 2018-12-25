@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "shop.html",
+    "currentPage": "landing.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3308,7 +3308,7 @@
       "settings": {
         "title": "Treasure Valley CBD Home | Buy 100% Legal High CBD Hemp Flower Online | ",
         "meta_descr": "Treasure Valley CBD offers organic full spectrum hemp flowers grown from Oregon CBD seed. Our hemp products are terpene rich and high in CBD, pesticide-free and grown on our family farm! Everything we sell contains less than .3% Δ9-THC and is legal in all 50 States. We currently have female hemp buds for sale, hemp products like Headache Balm, Mentholyptus Balm and some new TV CBD merch! ",
-        "header_custom": "\n",
+        "header_custom": "\n<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-5429476023180148\",\n    enable_page_level_ads: true\n  });\n</script>",
         "footer_custom": "",
         "html_before": "",
         "order": 8
@@ -5023,7 +5023,7 @@
         "meta_descr": "Treasure Valley CBD offers organic full spectrum hemp flowers, terpene rich and high in CBD, pesticide-free and grown on our family farm!   All products contain less than .3% THC and are legal in all 50 States...",
         "title": "Treasure Valley CBD Shop | Top Rated CBD Hemp Flower | Full Spectrum Hemp Body Balm | Merch |",
         "order": 5,
-        "header_custom": ""
+        "header_custom": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-5429476023180148\",\n    enable_page_level_ads: true\n  });\n</script>"
       },
       "components": [
         {
@@ -5582,7 +5582,7 @@
         "meta_descr": "Check out our new Retail-Ready or Unbranded Bulk wholesale options so you can bring Treasure Valley CBD to your customers! We offer competitive pricing on some of the best reviewed female hemp buds for sale. Buy bulk hemp flower and choose from Hawaiian Haze, Suver Haze and Elektra. We still have limited stock available of our Lifter in our Retail-Ready option while supplies last. ",
         "title": "Wholesale | Bulk Hemp Flower | Female Hemp Buds For Sale",
         "order": 6,
-        "header_custom": "\n"
+        "header_custom": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-5429476023180148\",\n    enable_page_level_ads: true\n  });\n</script>"
       },
       "components": [
         {
@@ -7424,7 +7424,8 @@
       "settings": {
         "meta_descr": "THC and CBD are both derived from the cannabis plant, but the way they interact with your endocannabinoid system is very different. Both interact with our CB1 receptors which maintain balance in our brains and nervous systems...Treasure Valley CBD offers raw hemp products and full spectrum CBD products that offer the widest array of natural compounds found in the plant. Our products are well trimmed and cured, cared for by our family and ready to ship directly to you!",
         "title": "Benefits of CBD | TV CBD Blog",
-        "order": 2
+        "order": 2,
+        "header_custom": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-5429476023180148\",\n    enable_page_level_ads: true\n  });\n</script>"
       },
       "components": [
         {
@@ -9660,11 +9661,11 @@
             "<script data-cfasync=\"false\" type=\"text/javascript\" src=\"https://app.ecwid.com/script.js?14467002&data_platform=code&data_date=2018-10-17\" charset=\"utf-8\"></script>",
             "<script type=\"text/javascript\">Ecwid.init();</script>"
           ],
+          "_anchor": "menu1-56",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-56"
+          "_params": {}
         },
         {
           "_styles": {
@@ -9745,11 +9746,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rcgwCUQwqa",
+          "_anchor": "footer7-57",
           "_protectedParams": [],
           "_global": true,
           "_once": true,
-          "_params": {},
-          "_anchor": "footer7-57"
+          "_params": {}
         }
       ]
     }
