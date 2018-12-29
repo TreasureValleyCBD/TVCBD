@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "disclaimer.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -82,8 +82,8 @@
     "siteUrl": "https://treasurevalleycbd.com",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
-    "cookiesAlert": "By using this site, you agree to our Privacy Policy, Cookies and Legal Disclaimers <a href='disclaimer.html'>Read Them Here</a>.",
-    "gdpr": "By continiung you agree to our <a href='disclaimer.html'>Terms of Service</a> and <a href='disclaimer.html'>Privacy Policy</a>.",
+    "cookiesAlert": "",
+    "gdpr": "",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on"
   },
