@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "page15.html",
+    "currentPage": "custompay.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -9820,7 +9820,7 @@
         }
       ]
     },
-    "page15.html": {
+    "custompay.html": {
       "settings": {
         "meta_descr": "Custom payment site for Treasure Valley CBD",
         "title": "Custom Payment",
