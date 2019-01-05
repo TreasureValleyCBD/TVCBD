@@ -1,4 +1,12 @@
 @font-face {
-   font-family: 'Depot-Light';
-   src: url('Depot-Light/font.ttf');
+   font-family: 'BebasNeue-Regular';
+   src: url('BebasNeue-Regular/font.ttf');
+}
+@font-face {
+   font-family: 'Aileron-Thin';
+   src: url('Aileron-Thin/font.ttf');
+}
+@font-face {
+   font-family: 'Aileron-Regular';
+   src: url('Aileron-Regular/font.ttf');
 }
