@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "index.html",
+    "currentPage": "subscribe.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -8692,7 +8692,7 @@
         "meta_descr": "Subscribe to our email list below. We promise only to share great news about CBD...not your email address.",
         "title": "Treasure Valley CBD Subscribe | Subscribe to our newsletter for discounts and promotions!",
         "order": 13,
-        "header_custom": ""
+        "header_custom": "<script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/d1b871abe006d190d3589cc24/d5d804073517cfbc4f5116668.js\");</script>"
       },
       "components": [
         {
