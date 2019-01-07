@@ -42,7 +42,7 @@ body {
   font-size: 3.84rem;
 }
 .display-7 {
-  font-family: 'Aileron-Thin';
+  font-family: 'Aileron-Regular';
   font-size: 1.2rem;
 }
 .display-7 > .mbr-iconfont {
@@ -647,7 +647,7 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Aileron-Thin';
+  font-family: 'Aileron-Regular';
   font-size: 1.2rem;
   line-height: 1.43;
   min-height: 3.5em;
