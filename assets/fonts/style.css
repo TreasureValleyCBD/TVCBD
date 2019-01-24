@@ -3,10 +3,10 @@
    src: url('BebasNeue-Regular/font.ttf');
 }
 @font-face {
-   font-family: 'Aileron-Thin';
-   src: url('Aileron-Thin/font.ttf');
-}
-@font-face {
    font-family: 'Aileron-Regular';
    src: url('Aileron-Regular/font.ttf');
+}
+@font-face {
+   font-family: 'Aileron-Thin';
+   src: url('Aileron-Thin/font.ttf');
 }
