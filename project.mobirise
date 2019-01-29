@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "Benefits-of-CBD.html",
+    "currentPage": "shop.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -126,7 +126,7 @@
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "<script>\r\n(function(i,s,o,g,r,a,m){\r\n  i['GoogleAnalyticsObject']=r;\r\n  i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},\r\n  i[r].l=1*new Date();\r\n  a=s.createElement(o),m=s.getElementsByTagName(o)[0];\r\n  a.async=1;\r\n  a.src=g;\r\n  m.parentNode.insertBefore(a,m)\r\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\nga('create', 'UA-125015888-5', 'auto');\r\nga('send', 'pageview');\r\n</script>\r\n<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-125015888-4\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-125015888-4');\r\n</script>\r\n<script>\r\n(function(i,s,o,g,r,a,m){\r\n  i['GoogleAnalyticsObject']=r;\r\n  i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},\r\n  i[r].l=1*new Date();\r\n  a=s.createElement(o),m=s.getElementsByTagName(o)[0];\r\n  a.async=1;\r\n  a.src=g;\r\n  m.parentNode.insertBefore(a,m)\r\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\nga('create', 'UA-129713359-3', 'auto');\r\nga('send', 'pageview');\r\n</script>",
+    "google-analytics": "<!-- Google Analytics -->\r\n<script>\r\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\nga('create', UA-125015888-4', 'auto');\r\nga('create', 'UA-129713359-3, 'auto', 'myTracker');\r\nga('send', 'pageview');\r\n</script>",
     "siteUrl": "https://treasurevalleycbd.com",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
@@ -5668,7 +5668,8 @@
         "meta_descr": "Treasure Valley CBD offers organic full spectrum hemp flowers, terpene rich and high in CBD, pesticide-free and grown on our family farm!   All products contain less than .3% THC and are legal in all 50 States...",
         "title": "Treasure Valley CBD Shop | Top Rated CBD Hemp Flower | Full Spectrum Hemp Body Balm | Merch |",
         "order": 6,
-        "header_custom": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-5429476023180148\",\n    enable_page_level_ads: true\n  });\n</script>"
+        "header_custom": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-5429476023180148\",\n    enable_page_level_ads: true\n  });\n</script>",
+        "footer_custom": ""
       },
       "components": [
         {
@@ -6833,7 +6834,7 @@
         "title": "What does the 2018 US Farm Bill mean for Hemp and CBD? | TV CBD Blog",
         "order": 4,
         "header_custom": "",
-        "footer_custom": "<script>\n(function(i,s,o,g,r,a,m){\n  i['GoogleAnalyticsObject']=r;\n  i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},\n  i[r].l=1*new Date();\n  a=s.createElement(o),m=s.getElementsByTagName(o)[0];\n  a.async=1;\n  a.src=g;\n  m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\nga('create', 'UA-129713359-3', 'auto');\nga('send', 'pageview');\n</script>"
+        "footer_custom": ""
       },
       "components": [
         {
@@ -7486,7 +7487,7 @@
         "title": "TV CBD Blog | 2018 US Farm Bill and Hemp | Benefits of CBD",
         "order": 3,
         "header_custom": "",
-        "footer_custom": "<script>\n(function(i,s,o,g,r,a,m){\n  i['GoogleAnalyticsObject']=r;\n  i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},\n  i[r].l=1*new Date();\n  a=s.createElement(o),m=s.getElementsByTagName(o)[0];\n  a.async=1;\n  a.src=g;\n  m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\nga('create', 'UA-129713359-3', 'auto');\nga('send', 'pageview');\n</script>"
+        "footer_custom": ""
       },
       "components": [
         {
@@ -8120,7 +8121,7 @@
         "meta_descr": "THC and CBD are both derived from the cannabis plant, but the way they interact with your endocannabinoid system is very different. Both interact with our CB1 receptors which maintain balance in our brains and nervous systems...Treasure Valley CBD offers raw hemp products and full spectrum CBD products that offer the widest array of natural compounds found in the plant. Our products are well trimmed and cured, cared for by our family and ready to ship directly to you!",
         "title": "Benefits of CBD | TV CBD Blog",
         "order": 2,
-        "header_custom": "<script>\n(function(i,s,o,g,r,a,m){\n  i['GoogleAnalyticsObject']=r;\n  i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},\n  i[r].l=1*new Date();\n  a=s.createElement(o),m=s.getElementsByTagName(o)[0];\n  a.async=1;\n  a.src=g;\n  m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\nga('create', 'UA-129713359-3', 'auto');\nga('send', 'pageview');\n</script>",
+        "header_custom": "",
         "footer_custom": ""
       },
       "components": [
@@ -9923,7 +9924,7 @@
         "title": "2018 US Farm Bill Hemp Laws Explained",
         "order": 5,
         "header_custom": "",
-        "footer_custom": "<script>\n(function(i,s,o,g,r,a,m){\n  i['GoogleAnalyticsObject']=r;\n  i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},\n  i[r].l=1*new Date();\n  a=s.createElement(o),m=s.getElementsByTagName(o)[0];\n  a.async=1;\n  a.src=g;\n  m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\nga('create', 'UA-129713359-3', 'auto');\nga('send', 'pageview');\n</script>"
+        "footer_custom": ""
       },
       "components": [
         {
