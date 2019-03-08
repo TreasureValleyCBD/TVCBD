@@ -677,6 +677,7 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
+  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -6180,6 +6181,11 @@ body {
   .cid-rdE6fuCXiE .mbr-figure img {
     width: 100% !important;
   }
+}
+.cid-rk5SDsFGC0 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #c1c1c1;
 }
 .cid-rcy8iIE6cs .navbar {
   padding: .5rem 0;

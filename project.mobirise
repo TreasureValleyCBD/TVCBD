@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "newsletter.html",
+    "currentPage": "shop.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -121,8 +121,8 @@
         "file": "@PROJECT_PATH@/fonts/Aileron-Thin/font.ttf"
       }
     ],
-    "uniqCompNum": 261,
-    "versionPublish": "4.9.1",
+    "uniqCompNum": 263,
+    "versionPublish": "4.9.5",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
@@ -191,23 +191,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<div id=\"my-categories-14467002\"></div>\n<div>\n{JS_CODE_0}\n{JS_CODE_1}\n</div>\n",
-          "_customCSS": "",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-5r",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script data-cfasync=\"false\" type=\"text/javascript\" src=\"https://app.ecwid.com/script.js?14467002&data_platform=code&data_date=2018-12-25\" charset=\"utf-8\"></script>",
-            "<script type=\"text/javascript\"> xCategoriesV2(\"id=my-categories-14467002\"); </script>"
-          ]
         },
         {
           "_customTemplate": true,
@@ -3970,23 +3953,6 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<div id=\"my-categories-14467002\"></div>\n<div>\n{JS_CODE_0}\n{JS_CODE_1}\n</div>\n",
-          "_customCSS": "",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-5y",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script data-cfasync=\"false\" type=\"text/javascript\" src=\"https://app.ecwid.com/script.js?14467002&data_platform=code&data_date=2018-12-25\" charset=\"utf-8\"></script>",
-            "<script type=\"text/javascript\"> xCategoriesV2(\"id=my-categories-14467002\"); </script>"
-          ]
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
           "_customHTML": "<div>{JS_CODE_0} \n{JS_CODE_1}</div>",
           "_customCSS": "",
           "alias": "code-editor",
@@ -5716,23 +5682,6 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<div id=\"my-categories-14467002\"></div>\n<div>\n{JS_CODE_0}\n{JS_CODE_1}\n</div>\n",
-          "_customCSS": "",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-5m",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script data-cfasync=\"false\" type=\"text/javascript\" src=\"https://app.ecwid.com/script.js?14467002&data_platform=code&data_date=2018-12-25\" charset=\"utf-8\"></script>",
-            "<script type=\"text/javascript\"> xCategoriesV2(\"id=my-categories-14467002\"); </script>"
-          ]
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
           "_customHTML": "<div>{JS_CODE_0} \n{JS_CODE_1}</div>",
           "_customCSS": "",
           "alias": "code-editor",
@@ -6285,7 +6234,7 @@
             }
           },
           "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"10\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-20180830-191213-2000x2667.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Wholesale</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">***TAKE $100 OFF YOUR FIRST ORDER OF $1000 OR MORE. ENTER DISCOUNT CODE \"INTROB2B\" BEFORE CHECKOUT***<br><br>Thanks for visiting our Wholesale section. Please choose from Trimmed, Untrimmed or Pre-Packaged bulk flower with pricing breaks at 10, 50 and 100 lbs. Choose from Elektra, Suver Haze and Hawaiian Haze grown from <a href=\"http://www.oregoncbdseeds.com/seeds/\" target=\"_blank\">Oregon CBD seed</a>.&nbsp;Everything we sell contains less than .3% Δ9-THC and is legal in all 50 States.<br><br>Please read our <a href=\"disclaimer.html#content9-2v\">disclaimer</a> before making a purchase.<br><br>***TAKE $100 OFF YOUR FIRST ORDER OF $1000 OR MORE. ENTER DISCOUNT CODE \"INTROB2B\" AT BEFORE CHECKOUT***&nbsp;<br></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"About.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n          \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"10\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-20180830-191213-2000x2667.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Wholesale</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">To better serve our customers we have created \"Bulk\" options on our Retail website here and have moved actual Wholesale business to our new site at https://treasurevalleyfarm.com&nbsp;<br><br>You will find 1/2lbs up to 15 lbs at our retail site and 20 - 150+ lbs on the wholesale site. At our Wholesale site, we require a minimum quantity of 20lbs and you are required to provide Tax ID or EIN, applicable licenses and sign a contract. Thanks for understanding, please choose an option below to be redirected:</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"About.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n          \n        </div>\n    </div>\n</section>",
           "_anchor": "header4-66",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -6296,38 +6245,20 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<div id=\"my-categories-14467002\"></div>\n<div>\n{JS_CODE_0}\n{JS_CODE_1}\n</div>\n",
-          "_customCSS": "",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-64",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script data-cfasync=\"false\" type=\"text/javascript\" src=\"https://app.ecwid.com/script.js?14467002&data_platform=code&data_date=2018-12-25\" charset=\"utf-8\"></script>",
-            "<script type=\"text/javascript\"> xCategoriesV2(\"id=my-categories-14467002\"); </script>"
-          ]
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<div id=\"my-store-14467002\"></div>\n<div> {JS_CODE_0} \n{JS_CODE_1} </div>\n",
-          "_customCSS": "",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-65",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type='text/javascript' data-cfasync=\"false\"\nsrc='https://app.ecwid.com/script.js?14467002'></script>",
-            "<script type='text/javascript'> xProductBrowser(\"id=my-store-\",\"defaultCategoryId=32671216\"); </script>"
-          ]
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#c1c1c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://treasurevalleyfarm.com\" data-app-placeholder=\"Type Text\">Wholesale</a>\n                    <a class=\"btn btn-black-outline\" href=\"index.html\" data-app-placeholder=\"Type Text\">REtail</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rk5SDsFGC0",
+          "_anchor": "content8-7a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "_styles": {
