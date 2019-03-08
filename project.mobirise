@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "index.html",
+    "currentPage": "bodybalm.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -121,7 +121,7 @@
         "file": "@PROJECT_PATH@/fonts/Aileron-Thin/font.ttf"
       }
     ],
-    "uniqCompNum": 268,
+    "uniqCompNum": 272,
     "versionPublish": "4.9.5",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -199,7 +199,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"prepackaged.html#custom-html-8\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content8-7b",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -8675,11 +8675,11 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"prepackaged.html#custom-html-8\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-7d",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-7h",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rk6M6oF1IF",
+          "_cid": "rk6QlptXwo",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -9259,11 +9259,11 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"prepackaged.html#custom-html-8\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-7f",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-7j",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rk6Mc3hh91",
+          "_cid": "rk6Qrbf0qf",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -9842,11 +9842,11 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"prepackaged.html#custom-html-8\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-7e",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-7i",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rk6M9fQe0c",
+          "_cid": "rk6QnSfqrD",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -10426,11 +10426,11 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"prepackaged.html#custom-html-8\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-7c",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-7g",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rk6M3Y2xLn",
+          "_cid": "rk6QgoYVXl",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
