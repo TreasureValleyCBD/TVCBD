@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "page18.html",
+    "currentPage": "unsubscribe.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -11464,9 +11464,9 @@
         }
       ]
     },
-    "page18.html": {
+    "unsubscribe.html": {
       "settings": {
-        "meta_descr": "Subscribe to our email list below. We promise only to share great news about CBD...not your email address.",
+        "meta_descr": "Unsubscribe from our Newsletter here.",
         "title": "Unsubscribe",
         "order": 15,
         "header_custom": "<script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/d1b871abe006d190d3589cc24/d5d804073517cfbc4f5116668.js\");</script>"
