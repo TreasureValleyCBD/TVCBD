@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "About.html",
+    "currentPage": "newsletter12.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -12286,6 +12286,19 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-20190502-174858-2000x2667.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-20190502-174858-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/technical-support-2533526-1920-1920x1440.png",
+                "thumb": "@PROJECT_PATH@/assets/images/technical-support-2533526-1920-1920x1440-800x600.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
