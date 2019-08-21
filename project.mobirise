@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "Wholesale.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -22,7 +22,7 @@
         "display7Font": "Amarelinha-Bold",
         "display7Size": "2",
         "display4Font": "Amarelinha-Bold",
-        "display4Size": "1.6",
+        "display4Size": "1.8",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
@@ -117,8 +117,8 @@
         "file": "@PROJECT_PATH@/fonts/Amarelinha-Bold/font.ttf"
       }
     ],
-    "uniqCompNum": 281,
-    "versionPublish": "4.9.5",
+    "uniqCompNum": 288,
+    "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
@@ -143,6 +143,7 @@
       },
       "components": [
         {
+          "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -154,52 +155,20 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-figure": {
-              "margin": "0 auto",
-              "width": "100%",
-              "display": "flex",
-              "justify-content": "center",
-              "img": {
-                "height": "100%",
-                "margin": "0 auto"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".mbr-figure": {
-                "img": {
-                  "width": "100% !important"
-                }
-              }
+            "P": {
+              "color": "#767676"
             },
             "H1": {
               "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
             }
           },
-          "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"10\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/fieldphoto1-1-2000x1500.jpeg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"About.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n          \n        </div>\n    </div>\n</section>",
-          "_anchor": "header4-5o",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "rdDVY7cFJx",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-7b",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "rk6KWnF9di",
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/field2-2000x424.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-md btn-primary\" href=\"hempflower.html\" data-app-placeholder=\"Type Text\">Hemp</a> <a class=\"btn btn-md btn-primary\" href=\"bodybalm.html\" data-app-placeholder=\"Type Text\">BaLMS</a> <a class=\"btn btn-md btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">mERCH</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "rzP6exZ1Bf",
+          "_anchor": "header16-7u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3089,7 +3058,7 @@
             }
           },
           "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-4460-2000x1500.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br>Frequently Asked Questions</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Check this list of FAQ's before contacting us, we might already have an answer to your question:<br><br><b>How do I remove an item from my cart?<br></b><i>You cannot remove items from the cart after you have started checkout. Click on the cart icon to return to the main cart page to remove items. You should see an \"X\" to the right of each item in your cart.<br></i><br><b>Can you overnight my order?<br></b><i>We do not operate near a major shipping facility and cannot guaruntee overnight shipping. Please expect a 2 day processing time. Our total shipping time is 4-7 &nbsp;business days, but it can sometimes be faster.&nbsp;<br></i><br><b>How do I apply a discount code?\n<br></b><i>Click on \"Redeem your coupon\" on the first checkout page. Click the cart button at anytime to go back to this page.<br></i><br><br><b><i>Where are your COA's?</i><br></b><i>The COA's for our hemp flower and trim are in the picture galleries for the respective products. Here are the COA's in one place so you don't have to go hunting:</i><br><a href=\"https://share.confidentcannabis.com/samples/public/share/d0e96684-0654-499c-8266-ad559ea408f5 \" target=\"_blank\">Hawaiian Haze</a><br><a href=\"https://share.confidentcannabis.com/samples/public/share/c1f29897-93d0-41cb-b365-41d7063c0df7\" target=\"_blank\">Elektra</a><br><a href=\"https://share.confidentcannabis.com/samples/public/share/dff08f03-3290-4088-b8be-2a85c8e56f3a\" target=\"_blank\">Lifter</a><br><a href=\"https://share.confidentcannabis.com/samples/public/share/4440c0d3-81e7-4f66-92c6-13cedb5d4022\" target=\"_blank\">Suver Haze</a><br><a href=\"https://share.confidentcannabis.com/samples/public/share/8945d918-0e08-45b2-ab4f-5ca6f3deb95f\" target=\"_blank\">Early Harvest Trim</a><br><br><b>Do you have wholesale options? \n<br></b>Yes, we have a <a href=\"https://treasurevalleyfarm.com\" target=\"_blank\">wholesale site</a> with untrimmed, trimmed and pre-packaged options. Have a look around and contact us if you are looking for something we don't have listed.<br><br><b>Do you sell seeds?</b><br>No, we do not sell seeds. We recommend looking into brands like Oregon CBD or Boring Hemp if you need seeds.<br><a href=\"https://share.confidentcannabis.com/samples/public/share/8945d918-0e08-45b2-ab4f-5ca6f3deb95f\" target=\"_blank\"><br></a><br>\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"Wholesale.html\" data-app-placeholder=\"Type Text\">Wholesale</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"contact.html#header15-x\" data-app-placeholder=\"Type Text\">Contact us</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/sitefaq-1368x757.png\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-4460-2000x1500.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br>Frequently Asked Questions</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Check this list of FAQ's before contacting us, we might already have an answer to your question:<br><br><b>How do I remove an item from my cart?<br></b><i>You cannot remove items from the cart after you have started checkout. Click on the cart icon to return to the main cart page to remove items. You should see an \"X\" to the right of each item in your cart.<br></i><br><b>Can you overnight my order?<br></b><i>We do not operate near a major shipping facility and cannot guaruntee overnight shipping. Please expect a 2 day processing time. Our total shipping time is 4-7 &nbsp;business days, but it can sometimes be faster.&nbsp;<br></i><br><b>How do I apply a discount code?\n<br></b><i>Click on \"Redeem your coupon\" on the first checkout page. Click the cart button at anytime to go back to this page.<br></i><br><br><b><i>Where are your COA's?</i><br></b><i>The COA's for our hemp flower and trim are in the picture galleries for the respective products. Here are the COA's in one place so you don't have to go hunting:</i><br><a href=\"https://share.confidentcannabis.com/samples/public/share/d0e96684-0654-499c-8266-ad559ea408f5 \" target=\"_blank\">Hawaiian Haze</a><br><a href=\"https://share.confidentcannabis.com/samples/public/share/c1f29897-93d0-41cb-b365-41d7063c0df7\" target=\"_blank\">Elektra</a><br><a href=\"https://share.confidentcannabis.com/samples/public/share/dff08f03-3290-4088-b8be-2a85c8e56f3a\" target=\"_blank\">Lifter</a><br><a href=\"https://share.confidentcannabis.com/samples/public/share/4440c0d3-81e7-4f66-92c6-13cedb5d4022\" target=\"_blank\">Suver Haze</a><br><a href=\"https://share.confidentcannabis.com/samples/public/share/8945d918-0e08-45b2-ab4f-5ca6f3deb95f\" target=\"_blank\">Early Harvest Trim</a><br><br><b>Do you have wholesale options? \n<br></b>Yes, we have a <a href=\"https://treasurevalleyfarm.com\" target=\"_blank\">wholesale site</a> with untrimmed, trimmed and pre-packaged options. Have a look around and contact us if you are looking for something we don't have listed.<br><br><b>Do you sell seeds?</b><br>No, we do not sell seeds. We recommend looking into brands like Oregon CBD or Boring Hemp if you need seeds.<br>\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"Wholesale.html\" data-app-placeholder=\"Type Text\">Wholesale</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"contact.html#header15-x\" data-app-placeholder=\"Type Text\">Contact us</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/sitefaq-1368x757.png\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rgpv5jXrKS",
           "_anchor": "header4-79",
           "_protectedParams": [],
@@ -8568,6 +8537,7 @@
       },
       "components": [
         {
+          "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -8579,50 +8549,22 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-figure": {
-              "margin": "0 auto",
-              "width": "100%",
-              "display": "flex",
-              "justify-content": "center",
-              "img": {
-                "height": "100%",
-                "margin": "0 auto"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".mbr-figure": {
-                "img": {
-                  "width": "100% !important"
-                }
-              }
+            "P": {
+              "color": "#767676"
             },
             "H1": {
               "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
             }
           },
-          "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline=\"\" title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"10\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/fieldphoto1-1-2000x1500.jpeg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"About.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n          \n        </div>\n    </div>\n</section>",
-          "_anchor": "header4-7p",
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/field2-2000x424.jpg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!\n                </p>\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-md btn-primary\" href=\"hempflower.html\" data-app-placeholder=\"Type Text\">Hemp</a> <a class=\"btn btn-md btn-primary\" href=\"bodybalm.html\" data-app-placeholder=\"Type Text\">BaLMS</a> <a class=\"btn btn-md btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">mERCH</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "header16-7x",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rzNC2y2X58",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-7h",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "rk6QlptXwo",
+          "_cid": "rzPanDMwpF",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -9155,6 +9097,7 @@
       },
       "components": [
         {
+          "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -9166,50 +9109,22 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-figure": {
-              "margin": "0 auto",
-              "width": "100%",
-              "display": "flex",
-              "justify-content": "center",
-              "img": {
-                "height": "100%",
-                "margin": "0 auto"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".mbr-figure": {
-                "img": {
-                  "width": "100% !important"
-                }
-              }
+            "P": {
+              "color": "#767676"
             },
             "H1": {
               "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
             }
           },
-          "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline=\"\" title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"10\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/fieldphoto1-1-2000x1500.jpeg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"About.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n          \n        </div>\n    </div>\n</section>",
-          "_anchor": "header4-7r",
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/field2-2000x424.jpg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!\n                </p>\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-md btn-primary\" href=\"hempflower.html\" data-app-placeholder=\"Type Text\">Hemp</a> <a class=\"btn btn-md btn-primary\" href=\"bodybalm.html\" data-app-placeholder=\"Type Text\">BaLMS</a> <a class=\"btn btn-md btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">mERCH</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "header16-7z",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rzNCe4J1Er",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-7j",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "rk6Qrbf0qf",
+          "_cid": "rzPaM2lwEe",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -9741,6 +9656,7 @@
       },
       "components": [
         {
+          "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -9752,50 +9668,22 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-figure": {
-              "margin": "0 auto",
-              "width": "100%",
-              "display": "flex",
-              "justify-content": "center",
-              "img": {
-                "height": "100%",
-                "margin": "0 auto"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".mbr-figure": {
-                "img": {
-                  "width": "100% !important"
-                }
-              }
+            "P": {
+              "color": "#767676"
             },
             "H1": {
               "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
             }
           },
-          "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline=\"\" title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"10\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/fieldphoto1-1-2000x1500.jpeg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"About.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n          \n        </div>\n    </div>\n</section>",
-          "_anchor": "header4-7q",
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/field2-2000x424.jpg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!\n                </p>\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-md btn-primary\" href=\"hempflower.html\" data-app-placeholder=\"Type Text\">Hemp</a> <a class=\"btn btn-md btn-primary\" href=\"bodybalm.html\" data-app-placeholder=\"Type Text\">BaLMS</a> <a class=\"btn btn-md btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">mERCH</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "header16-7y",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rzNC921qLR",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-7i",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "rk6QnSfqrD",
+          "_cid": "rzPatVakx5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -10328,6 +10216,7 @@
       },
       "components": [
         {
+          "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -10339,50 +10228,22 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-figure": {
-              "margin": "0 auto",
-              "width": "100%",
-              "display": "flex",
-              "justify-content": "center",
-              "img": {
-                "height": "100%",
-                "margin": "0 auto"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".mbr-figure": {
-                "img": {
-                  "width": "100% !important"
-                }
-              }
+            "P": {
+              "color": "#767676"
             },
             "H1": {
               "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
             }
           },
-          "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"10\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/fieldphoto1-1-2000x1500.jpeg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"About.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n          \n        </div>\n    </div>\n</section>",
-          "_anchor": "header4-7n",
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/field2-2000x424.jpg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!\n                </p>\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-md btn-primary\" href=\"hempflower.html\" data-app-placeholder=\"Type Text\">Hemp</a> <a class=\"btn btn-md btn-primary\" href=\"bodybalm.html\" data-app-placeholder=\"Type Text\">BaLMS</a> <a class=\"btn btn-md btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">mERCH</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "header16-7v",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rzNBMUjqsy",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-7g",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "rk6QgoYVXl",
+          "_cid": "rzPa8vo6eJ",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -10915,6 +10776,7 @@
       },
       "components": [
         {
+          "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -10926,50 +10788,22 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-figure": {
-              "margin": "0 auto",
-              "width": "100%",
-              "display": "flex",
-              "justify-content": "center",
-              "img": {
-                "height": "100%",
-                "margin": "0 auto"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".mbr-figure": {
-                "img": {
-                  "width": "100% !important"
-                }
-              }
+            "P": {
+              "color": "#767676"
             },
             "H1": {
               "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
             }
           },
-          "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline=\"\" title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"10\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/fieldphoto1-1-2000x1500.jpeg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"About.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n          \n        </div>\n    </div>\n</section>",
-          "_anchor": "header4-7o",
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/field2-2000x424.jpg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Treasure Valley CBD Shop</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Thanks for visiting. Enjoy specials on 2018 hemp flower for a limited time and FREE Pre-Roll Cones w/Purchase while supplies last! We are currently growing over 60 acres comprised of 10 strains of high quality, high-CBD hemp and will start harvest in October. Follow us on instagram or sign up for our newsletter for the latest updates from the field!\n                </p>\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-md btn-primary\" href=\"hempflower.html\" data-app-placeholder=\"Type Text\">Hemp</a> <a class=\"btn btn-md btn-primary\" href=\"bodybalm.html\" data-app-placeholder=\"Type Text\">BaLMS</a> <a class=\"btn btn-md btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">mERCH</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "header16-7w",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rzNBYSG4Do",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"all.html\" data-app-placeholder=\"Type Text\">All</a> <a class=\"btn btn-primary\" href=\"hempflower.html#custom-html-5n\" data-app-placeholder=\"Type Text\">Flower</a>\n                    <a class=\"btn btn-primary\" href=\"bodybalm.html#custom-html-5z\" data-app-placeholder=\"Type Text\">Balms</a> <a class=\"btn btn-primary\" href=\"merch.html\" data-app-placeholder=\"Type Text\">Merch</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-7g",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "rk6QgoYVXl",
+          "_cid": "rzPah8u6ye",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
