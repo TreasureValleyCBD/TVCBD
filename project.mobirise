@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Treasure Valley CBD Website",
-    "currentPage": "bodybalm.html",
+    "currentPage": "Benefits-of-CBD.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -111,16 +111,16 @@
         "file": "@PROJECT_PATH@/fonts/Aileron-Thin/font.ttf"
       },
       {
-        "css": "'Amarelinha-Bold'",
-        "name": "Amarelinha-Bold",
-        "url": null,
-        "file": "@PROJECT_PATH@/fonts/Amarelinha-Bold/font.ttf"
-      },
-      {
         "css": "'Charcuterie_Sans_Bold'",
         "name": "Charcuterie_Sans_Bold",
         "url": null,
         "file": "@PROJECT_PATH@/fonts/Charcuterie_Sans_Bold/font.ttf"
+      },
+      {
+        "css": "'Amarelinha-Bold'",
+        "name": "Amarelinha-Bold",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/Amarelinha-Bold/font.ttf"
       }
     ],
     "uniqCompNum": 302,
@@ -6079,7 +6079,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>THC and CBD are both derived from the cannabis plant, but the way they interact with your endocannabinoid system is very different. Both interact with our CB1 receptors which maintain balance in our brains and nervous systems. THC fits neatly into our CB1 receptor and creates an intoxicating, psychoactive effect. CBD fits loosely in this receptor and can actually decrease the negative side effects of THC. Check out <a href=\"https://www.leafly.com/news/cannabis-101/whats-the-deal-with-these-high-cbd-strains\" target=\"_blank\">this video</a> from Leafly for a basic explanation with visual aide.\n<div><br></div><div>Medical research from the National Institutes of Health has cited Cannabidiol (CBD) as a potential treatment for:\n</div><div><span style=\"font-size: 1rem;\">-Anxiety Disorders¹&nbsp;</span><br></div><div>-Alzheimer's²\n</div><div>-Epilepsy³\n</div><div>-Addiction⁴\n</div><div>-Pancreatic Inflammation Associated with Type 1 Diabetes⁵\n</div><div>-Cancer⁶\n</div><div><br></div><div>With the passage of the 2018 US Farm Bill, more research can continue on the uses of CBD as well as the other compounds found in Cannabis sativa plants classified as hemp. As with Marijuana, the \"entourage effect\" is said to be just as important with hemp products...</div><div><br></div><div>Full spectrum hemp products don't contain just CBD, but a variety of other compounds like CBG, CBN, CBDV, CBC etc... These compounds along with terpenes, acids, salts and isomers are all said to contribute to the healing effects of the plant.\n</div><div><br></div><div>Treasure Valley CBD offers raw hemp products and full spectrum CBD products that offer the widest array of natural compounds found in the plant. Our products are well trimmed and cured, cared for by our family and ready to ship directly to you!</div><div><br></div><div>12/22/2018 - Cody Weaver</div></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>THC and CBD are both derived from the cannabis plant, but the way they interact with your endocannabinoid system is very different. Both interact with our CB1 receptors which maintain balance in our brains and nervous systems. THC fits neatly into our CB1 receptor and creates an intoxicating, psychoactive effect. CBD fits loosely in this receptor and can actually decrease the negative side effects of THC. Check out <a href=\"https://www.leafly.com/news/cannabis-101/whats-the-deal-with-these-high-cbd-strains\" target=\"_blank\">this video</a> from Leafly for a basic explanation with visual aide.\n<div><br></div><div>Medical research from the National Institutes of Health has cited Cannabidiol (CBD) as a potential treatment for:</div><div><br></div><div>-Anxiety Disorders¹</div><div>-Alzheimer's²\n</div><div>-Epilepsy³\n</div><div>-Addiction⁴\n</div><div>-Pancreatic Inflammation Associated with Type 1 Diabetes⁵\n</div><div>-Cancer⁶\n</div><div><br></div><div>With the passage of the 2018 US Farm Bill, more research can continue on the uses of CBD as well as the other compounds found in Cannabis sativa plants classified as hemp. As with Marijuana, the \"entourage effect\" is said to be just as important with hemp products...</div><div><br></div><div>Full spectrum hemp products don't contain just CBD, but a variety of other compounds like CBG, CBN, CBDV, CBC etc... These compounds along with terpenes, acids, salts and isomers are all said to contribute to the healing effects of the plant.\n</div><div><br></div><div>Treasure Valley CBD offers raw hemp products and full spectrum CBD products that offer the widest array of natural compounds found in the plant. Our products are well trimmed and cured, cared for by our family and ready to ship directly to you!</div><div><br></div><div>12/22/2018 - Cody Weaver</div></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rd0LRV7Jwn",
           "_anchor": "content1-50",
           "_protectedParams": [],
